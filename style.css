@@ -1,0 +1,255 @@
+#red-body{
+        background-color: #E8201B;
+}
+
+#orange-body{
+        background-color: #EF6311;
+}
+
+#yellow-body{
+        background-color: #EDE403;
+}
+
+#green-body{
+        background-color: #00915B;
+}
+
+#blue-body{
+        background-color: #1A70B5;
+}
+
+#purple-body{
+        background-color: #6E368E;
+}
+
+#about-body{
+        background-color: #FBF5F5;
+}
+
+.title{
+
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:700; font-stretch:normal;  font-size: 128;
+    font-weight: 700;
+    color: white;
+    -webkit-transition: opacity 2s;
+    transition: opacity 2s;
+
+}
+
+.title:hover{
+    cursor: default;
+    opacity: 0;
+}
+
+#title-dark{
+    color: #323232;
+}
+
+.top-button{
+    margin-top: -90;
+    text-align: right;
+    position: absolute;
+    width: auto;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;  font-size: 24;
+    -webkit-transition: opacity .75s;
+    transition: opacity .75s;
+    text-decoration: none
+}
+
+.top-button:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+#about-button-light{
+        color: white;
+        right:10;
+
+}
+
+#home-button-light{
+        color: white;
+        right:100;
+}
+
+#about-button-dark{
+        color: #323232;
+        right:10;
+
+}
+
+#home-button-dark{
+        color: #323232;
+        right:100;
+}
+
+/*source: "http://stackoverflow.com/questions/6921792/how-to-draw-circle-in-html-page"*/
+
+.circle-container{
+    margin-top: -210;
+    position: fixed;
+}
+
+.circle-container-centered{
+        margin: 0 auto;
+        width: 60;
+        margin-top: 300;
+}
+
+.circle {
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    margin: 15px;
+      width: 25px;
+      height: 25px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+    -webkit-transition: background 0.75s;
+    transition: background 0.75s;
+    }
+
+.circle:hover {
+      border-radius: 25px;
+      background: white;
+    }
+
+#redCircle{
+    background: #E8201B;
+}
+
+#redCircle:hover{
+    background: white;
+}
+
+#orangeCircle{
+    background: #EF6311;
+}
+
+#orangeCircle:hover{
+    background: #3374C2
+}
+
+#orangeCircle:hover{
+    background: white;
+}
+
+#yellowCircle{
+    background: #EDE403;
+}
+
+#yellowCircle:hover{
+    background: white;
+}
+
+#greenCircle{
+    background: #00915B;
+}
+
+#greenCircle:hover{
+    background: white;
+}
+
+#blueCircle{
+    background: #1A70B5;
+}
+
+#blueCircle:hover{
+    background: white;
+}
+
+#purpleCircle{
+    background: #6E368E;
+}
+
+#purpleCircle:hover{
+    background: white;
+}
+
+
+.table{
+    table-layout : fixed;
+    padding: 50;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:200; font-stretch:normal;  font-size: 24;
+    color: white;
+
+}
+
+.table:hover{
+    cursor: default;
+}
+
+.table-top{
+
+    text-align: left;
+    border-bottom: solid 2px white;
+    width: 100%;
+    font-family: "HelveticaNeueRegular", "HelveticaNeue-Regular", "Helvetica Neue Regular", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:500; font-stretch:normal;  font-size: 24;
+    color: white;
+
+}
+
+.madebysasha{
+    margin-top: 100px;    
+    text-align: center;    
+    width: 100%;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;  font-size: 16;
+    color: white;
+    -webkit-transition: color .75s;
+    transition: opacity .75s;
+    text-decoration: none
+
+}
+
+.madebysasha:hover{
+    opacity: 0.5;
+}
+
+.madebysasha:visited{
+    cursor: pointer;
+    color: white;
+    text-decoration: none
+
+}
+
+.madebysashaImage{
+    max-width: 200px;
+}
+
+#madebysasha-dark{
+    color: black;
+}
+
+.about-text{
+    table-layout : fixed;
+    line-height: 1.2;
+    padding: 50;
+    text-align: left;
+    width: 80%;
+    margin: 0 auto;
+    font-family: "HelveticaNeueThin", "HelveticaNeue-Thin", "Helvetica Neue Thin", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:200; font-stretch:normal;  font-size: 24;
+    color: #323232;
+}
+
+.about-link{
+    text-decoration: none;
+    color: black;
+    font-family: "HelveticaNeueLight", "HelveticaNeue-Light", "Helvetica Neue Light", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosRegular', "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; font-weight:300; font-stretch:normal;  font-size: 24;
+}
+
+
+.about-list{
+    padding: 20px 0px 0px;
+}
+
+#about-dark{
+    color: #323232;
+}
